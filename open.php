@@ -48,7 +48,18 @@ body {font-family: "Lato", sans-serif;}
   <h3>Cojjjjj</h3>
   <p>Get to know the Salvare Project.</p>
 </div>
+
+<h2>Get Started</h2>
+
+<button onclick="myFunction()">Start</button>
+
 <script>
+function myFunction() {
+    alert("Welcome to The Salvare!");
+}
+</script>
+
+<h2>Waste Classification</h2>
 
      
 </body>
