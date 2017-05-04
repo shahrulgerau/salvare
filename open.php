@@ -91,7 +91,7 @@ Compostable
 <td>
 Partially Recyclable
 <br>
-<input type="image" src="img/part.jpg" name="compost" value="compost" alt="Submit" width="150" height="150">
+<input type="image" src="img/part.jpg" name="part" value="part" alt="Submit" width="150" height="150">
 </td>
 </tr>
 
