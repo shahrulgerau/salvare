@@ -59,7 +59,8 @@ body {font-family: "Lato", sans-serif;}
 <a href="find.php"><button class="tablink" onclick="openCity('Find', this, 'blue')">Find</button></a>
 <a href="oa4.php"><button class="tablink" onclick="openCity('Contact', this, 'orange')">Contact</button></a>
 
-<div id="Contact">
+<div id="Contact" >
+
 
 
 
@@ -99,6 +100,7 @@ Partially Recyclable
 </center>
 <center>
 <br>
+
 <?php
 if (isset($_POST['recycle'])&&$_POST['recycle']=="recycle"){
 
@@ -143,8 +145,9 @@ if (isset($_POST['part'])&&$_POST['part']=="part"){
 ?>
 
 </center>
-
 </div>
+
+
 
      
 </body>
