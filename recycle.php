@@ -55,6 +55,7 @@ body {font-family: "Lato", sans-serif;}
 #Plastic {background-color:#99e600;}
 #Glass {background-color:#77b300;}
 #Tins {background-color:green;}
+#Recycle {background-color:#f2f2f2;}
 </style>
 </head>
 <body>
@@ -67,6 +68,8 @@ body {font-family: "Lato", sans-serif;}
 <button class="tablink1" onclick="openCity('Glass', this, '#77b300')">Glass</button>
 <button class="tablink1" onclick="openCity('Tins', this, 'green')">Tins</button>
 
+
+
 <div id="Paper" class="tabcontent">
 <img src="img/paper.jpg" height="300" width="300">
   <h3>PAPER</h3>
@@ -74,19 +77,38 @@ body {font-family: "Lato", sans-serif;}
 </div>
 
 <div id="Plastic" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p> 
+<img src="img/plastic.png" height="600" width="700">
+  <h3>Plastic</h3>
+  <p>For the future we need to recyle the plastic</p> 
 </div>
 
 <div id="Glass" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
+<img src="img/glass.jpg" height="300" width="300">
+  <h3>Glass</h3>
+  <p>Glass also are recyclable items.</p>
+  <p>Including jars and glass bottle</p>
+
 </div>
 
 <div id="Tins" class="tabcontent">
-  <h3>Oslo</h3>
-  <p>Oslo is the capital of Norway.</p>
+<img src="img/tins.jpg" height="300" width="300">
+  <h3>Tins</h3>
+  <p>All the tins/metal product can be recyle </p>
 </div>
+
+
+<center>
+<div id="Recycle">
+<h1>Dont Forget</h1>
+<h4>Your Bin</h4>
+<p>Place the recylable waste into the BLUE bin</p> 
+<p>1)Prepare any bins and label it as BLUE bin</p>
+<p>2)Separate the recylable waste based on the recyclable item above</p>
+<img src="img/blue.jpg" height="300" width="300">
+</div>
+</center>
+
+
 
 
 <script>
