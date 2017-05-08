@@ -68,9 +68,9 @@ body {font-family: "Lato", sans-serif;}
 <button class="tablink1" onclick="openCity('Polystrene', this, 'green')">Polystrene</button>
 
 <div id="Nappies" class="tabcontent">
-<img src="img/paper.jpg" height="300" width="300">
+<img src="img/nap.jpg" height="300" width="300">
   <h3>Nappies</h3>
-  <p>All kind of paper can be recycle</p>
+  <p>The diry nappies cannot be recyle</p>
 </div>
 
 <div id="Cigarette" class="tabcontent">
@@ -79,14 +79,28 @@ body {font-family: "Lato", sans-serif;}
 </div>
 
 <div id="Broken" class="tabcontent">
-  <h3>Broken</h3>
-  <p>Tokyo is the capital of Japan.</p>
+  <h3>Broken Window Glass</h3>
+  <p>The broken mirror is dangerous</p>
 </div>
 
 <div id="Polystrene" class="tabcontent">
+<img src="img/poly.jpg" height="300" width="300">
   <h3>Polystrene</h3>
-  <p>Oslo is the capital of Norway.</p>
+  <p>Polystyrene foam is 95% air so it is not cost-effective to store or ship.</p>
+  <p>It is often contaminated with food or drink, and it is difficult to clean because it is so porous. </p>
 </div>
+
+<center>
+<div id="Recycle">
+<h1>Dont Forget</h1>
+<h4>Your Bin</h4>
+<p>Place the recylable waste into the BLACK bin</p> 
+<p>1)Prepare any bins and label it as BLACK bin</p>
+<p>2)Separate the recylable waste based on the recyclable item above</p>
+<img src="img/black.jpg" height="300" width="300">
+</div>
+</center>
+
 
 
 <script>
