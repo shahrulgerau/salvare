@@ -14,6 +14,7 @@ body {font-family: "Lato", sans-serif;}
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
+	border: 3px solid #73AD21;
 }
 
 .tablink:hover {
@@ -48,6 +49,17 @@ body {font-family: "Lato", sans-serif;}
     margin: 4px 2px;
     cursor: pointer;
 }
+
+.bord{
+	border: 3px solid #73AD21;
+}
+.center{
+	text-align: center;
+	font-weight: bold;
+}
+.font-style{
+	font-family:'Segoe UI',Arial,sans-serif;
+}
 </style>
 </head>
 <body>
@@ -65,32 +77,32 @@ body {font-family: "Lato", sans-serif;}
 
 
 
-<Center><h2>Waste Classification</h2></center>
+<Center><h2 class="font-style">Waste Classification</h2></center>
 
 <center>
 <table>
 <form action="<?php echo $_SERVER ['PHP_SELF']?>" method="post">
 <tr>
-<td>
+<td class="center">
 Recyclable
 <br>
-<input type="image" src="img/recycle.jpg" name="recycle" value="recycle" alt="Submit" width="150" height="150">
+<input type="image" class="bord" src="img/recycle.jpg" name="recycle" value="recycle" alt="Submit" width="150" height="150">
 </td>
-<td>
+<td class="center">
 Non-Recyclable
 <br>
-<input type="image" src="img/non.jpg" name="non" value="non" alt="Submit" width="150" height="150">
+<input type="image" class="bord" src="img/non.jpg" name="non" value="non" alt="Submit" width="150" height="150">
 </td>
 <tr>
-<td>
+<td class="center">
 Compostable
 <br>
-<input type="image" src="img/compost.jpg" name="compost" value="compost" alt="Submit" width="150" height="150">
+<input type="image" class="bord" src="img/compost.jpg" name="compost" value="compost" alt="Submit" width="150" height="150">
 </td>
-<td>
+<td class="center">
 Partially Recyclable
 <br>
-<input type="image" src="img/part.jpg" name="part" value="part" alt="Submit" width="150" height="150">
+<input type="image" class="bord" src="img/part.jpg" name="part" value="part" alt="Submit" width="150" height="150">
 </td>
 </tr>
 

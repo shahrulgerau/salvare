@@ -14,6 +14,7 @@ body {font-family: "Lato", sans-serif;}
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
+	border: 3px solid #73AD21;
 }
 
 .tablink:hover {
@@ -50,6 +51,15 @@ body {font-family: "Lato", sans-serif;}
 
 .center{
 	text-align: center;
+	font-weight: bold;
+}
+
+.bord{
+	border: 3px solid #73AD21;
+}
+
+.font-style{
+	font-family:'Segoe UI',Arial,sans-serif;
 }
 </style>
 </head>
@@ -69,7 +79,7 @@ body {font-family: "Lato", sans-serif;}
 
 
 
-<Center><h2>Waste Innovation Type</h2></center>
+<Center><h2 class="font-style">Waste Innovation Type</h2></center>
 
 <center>
 <table>
@@ -78,23 +88,23 @@ body {font-family: "Lato", sans-serif;}
 <td class="center">
 Metal
 <br>
-<input type="image" src="img/Tin-Market.jpg" name="metal" value="metal" alt="Submit" width="150" height="150">
+<input type="image" class="bord" src="img/Tin-Market.jpg" name="metal" value="metal" alt="Submit" width="150" height="150">
 </td >
 <td class="center">
 Glass
 <br>
-<input type="image" src="img/glass.jpg" name="glass" value="glass" alt="Submit" width="150" height="150">
+<input type="image" class="bord" src="img/glass.jpg" name="glass" value="glass" alt="Submit" width="150" height="150">
 </td>
 <tr>
 <td class="center">
 Paper
 <br>
-<input type="image" src="img/paper.jpg" name="paper" value="paper" alt="Submit" width="150" height="150">
+<input type="image" class="bord" src="img/paper.jpg" name="paper" value="paper" alt="Submit" width="150" height="150">
 </td>
 <td class="center">
 Bottle
 <br>
-<input type="image" src="img/bottle.jpg" name="bottle" value="bottle" alt="Submit" width="150" height="150">
+<input type="image" class="bord" src="img/bottle.jpg" name="bottle" value="bottle" alt="Submit" width="150" height="150">
 </td>
 </tr>
 
