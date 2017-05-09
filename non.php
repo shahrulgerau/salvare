@@ -4,15 +4,16 @@
 body {font-family: "Lato", sans-serif;}
 
 .tablink {
-    background-color: #555;
-    color: black;
+    background-color: #1a1aff;
+    color: white;
     float: left;
     border: none;
-    outline: none;
+    outline: 1;
     cursor: pointer;
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
+	
 }
 .tablink1 {
     background-color: #555;
@@ -51,10 +52,10 @@ body {font-family: "Lato", sans-serif;}
     cursor: pointer;
 }
 
-#Nappies {background-color:#bbff33;}
-#Cigarette {background-color:#99e600;}
-#Broken {background-color:#77b300;}
-#Polystrene {background-color:green;}
+#Nappies {background-color:#e6e6e6;}
+#Cigarette {background-color:#e6e6e6;}
+#Broken {background-color:#e6e6e6;}
+#Polystrene {background-color:#e6e6e6;}
 </style>
 </head>
 <body>
@@ -62,10 +63,10 @@ body {font-family: "Lato", sans-serif;}
 <a href="open.php" class="button1">Back</a>
 
 <br>
-<button class="tablink" onclick="openCity('Nappies', this, '#bbff33')" id="defaultOpen">Nappies</button>
-<button class="tablink" onclick="openCity('Cigarette', this, '#99e600')">Cigarette</button>
-<button class="tablink1" onclick="openCity('Broken', this, '#77b300')">Broken</button>
-<button class="tablink1" onclick="openCity('Polystrene', this, 'green')">Polystrene</button>
+<button class="tablink" onclick="openCity('Nappies', this, '#e6e6e6')" id="defaultOpen">Nappies</button>
+<button class="tablink" onclick="openCity('Cigarette', this, '#e6e6e6')">Cigarette</button>
+<button class="tablink" onclick="openCity('Broken', this, '#e6e6e6')">Broken</button>
+<button class="tablink" onclick="openCity('Polystrene', this, '#e6e6e6')">Polystrene</button>
 
 <div id="Nappies" class="tabcontent">
 <img src="img/nap.jpg" height="300" width="300">

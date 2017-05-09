@@ -32,11 +32,12 @@ body {font-family: "Lato", sans-serif;}
 #Innovation {background-color:green;}
 #Find {background-color:blue;}
 #Contact {background-color:orange;}
+#back {background-color:#99e6ff;}
 
 .box {padding: 7px;border: #F0F0F0 1px solid;border-radius: 4px;}
 
 .button1 {
-    background-color: #46C9CF;
+    background-color:#663300;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -59,7 +60,7 @@ body {font-family: "Lato", sans-serif;}
 <a href="find.php"><button class="tablink" onclick="openCity('Find', this, 'blue')">Find</button></a>
 <a href="oa4.php"><button class="tablink" onclick="openCity('Contact', this, 'orange')">Contact</button></a>
 
-<div id="Contact">
+<div id="back">
 
 
 

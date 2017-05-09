@@ -1,17 +1,78 @@
-
+<!DOCTYPE html>
+<html>
+<head>
 <style>
+body {font-family: "Lato", sans-serif;}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+#Tutorial {background-color:red;}
+#Innovation {background-color:green;}
+#Find {background-color:blue;}
+#Contact {background-color:orange;}
+#back {background-color:#99e6ff;}
+
+.box {padding: 7px;border: #F0F0F0 1px solid;border-radius: 4px;}
+
+.button1 {
+    background-color: #46C9CF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 table1 {
     border-collapse: collapse;
     width: 100%;
 	background-color: #f2f2f2
 }
-
 </style>
+</head>
+<body>
+
+
+
+
+<a href="open.php"><button class="tablink" onclick="openCity('Tutorial', this, 'red')" id="defaultOpen">Tutorial</button></a>
+<a href="inno.php"><button class="tablink" onclick="openCity('Innovation', this, 'green')">Innovation</button></a>
+<a href="find.php"><button class="tablink" onclick="openCity('Find', this, 'blue')">Find</button></a>
+<a href="oa4.php"><button class="tablink" onclick="openCity('Contact', this, 'orange')">Contact</button></a>
+
+
 <center>
+
+<div id="back">
+<br><br>
 <br><br>
 Find the Recycling Center
 <br><br>
-<div>
 <table>
 <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post">
 <tr>
