@@ -47,6 +47,10 @@ body {font-family: "Lato", sans-serif;}
     margin: 4px 2px;
     cursor: pointer;
 }
+
+.center{
+	text-align: center;
+}
 </style>
 </head>
 <body>
@@ -65,32 +69,32 @@ body {font-family: "Lato", sans-serif;}
 
 
 
-<Center><h2>Waste Classification</h2></center>
+<Center><h2>Waste Innovation Type</h2></center>
 
 <center>
 <table>
 <form action="<?php echo $_SERVER ['PHP_SELF']?>" method="post">
 <tr>
-<td>
-Recyclable
+<td class="center">
+Metal
 <br>
-<input type="image" src="img/recycle.jpg" name="recycle" value="recycle" alt="Submit" width="150" height="150">
-</td>
-<td>
-Non-Recyclable
+<input type="image" src="img/Tin-Market.jpg" name="metal" value="metal" alt="Submit" width="150" height="150">
+</td >
+<td class="center">
+Glass
 <br>
-<input type="image" src="img/non.jpg" name="non" value="non" alt="Submit" width="150" height="150">
+<input type="image" src="img/glass.jpg" name="glass" value="glass" alt="Submit" width="150" height="150">
 </td>
 <tr>
-<td>
-Compostable
+<td class="center">
+Paper
 <br>
-<input type="image" src="img/compost.jpg" name="compost" value="compost" alt="Submit" width="150" height="150">
+<input type="image" src="img/paper.jpg" name="paper" value="paper" alt="Submit" width="150" height="150">
 </td>
-<td>
-Partially Recyclable
+<td class="center">
+Bottle
 <br>
-<input type="image" src="img/part.jpg" name="part" value="part" alt="Submit" width="150" height="150">
+<input type="image" src="img/bottle.jpg" name="bottle" value="bottle" alt="Submit" width="150" height="150">
 </td>
 </tr>
 
@@ -102,40 +106,40 @@ Partially Recyclable
 <br>
 
 <?php
-if (isset($_POST['recycle'])&&$_POST['recycle']=="recycle"){
+if (isset($_POST['metal'])&&$_POST['metal']=="metal"){
 
 
 
 
-	echo "Recyclable Item";
+	echo "METAL OR TINS";
 	echo "<br>";
-	echo "CLICK GO to know more about recyclable waste ";
+	echo "CLICK GO to watch the DIY video";
 	?>
-	<a href="recycle.php" class="button1">GO</a>
+	<a href="metal.php" class="button1">GO</a>
 	<?php
 }
-if (isset($_POST['non'])&&$_POST['non']=="non"){
-	echo "Non-Recyclable Waste";
+if (isset($_POST['glass'])&&$_POST['glass']=="glass"){
+	echo "GLASS";
 	echo "<br>";
-	echo "CLICK GO to know more about Non-Recyclable waste";
+	echo "CLICK GO to watch the DIY video";
 	?>
 	<a href="non.php" class="button1">GO</a>
 	
 	<?php
 }
-if (isset($_POST['compost'])&&$_POST['compost']=="compost"){
-	echo "Compostable Waste";
+if (isset($_POST['paper'])&&$_POST['paper']=="paper"){
+	echo "PAPER";
 	echo "<br>";
-	echo " CLICK GO to know more about Compostable waste";
+	echo "CLICK GO to watch the DIY video";
 	?>
 	<a href="compost.php" class="button1">GO</a>
 	
 	<?php
 }
-if (isset($_POST['part'])&&$_POST['part']=="part"){
-	echo "Partially Recyclable Waste<br>";
+if (isset($_POST['bottle'])&&$_POST['bottle']=="bottle"){
+	echo "BOTTLE";
 	echo "<br>";
-	echo " CLICK GO to know more about Partially Recyclable waste";
+	echo "CLICK GO to watch the DIY video";
 	?>
 	<a href="part.php" class="button1">GO</a>
 	
