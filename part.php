@@ -4,8 +4,8 @@
 body {font-family: "Lato", sans-serif;}
 
 .tablink {
-    background-color: #555;
-    color: black;
+    background-color: #ff6666;
+    color: white;
     float: left;
     border: none;
     outline: none;
@@ -51,10 +51,10 @@ body {font-family: "Lato", sans-serif;}
     cursor: pointer;
 }
 
-#Mobile {background-color:#bbff33;}
-#PC {background-color:#99e600;}
-#Gadget {background-color:#77b300;}
-#BioPolystrene{background-color:green;}
+#Mobile {background-color:#ff6666;}
+#PC {background-color:#ff6666;}
+#Gadget {background-color:#ff6666;}
+#Wire{background-color:#ff6666;}
 </style>
 </head>
 <body>
@@ -62,10 +62,10 @@ body {font-family: "Lato", sans-serif;}
 <a href="open.php" class="button1">Back</a>
 
 <br>
-<button class="tablink" onclick="openCity('Mobile', this, '#bbff33')" id="defaultOpen">Mobile</button>
-<button class="tablink" onclick="openCity('PC', this, '#99e600')">PC</button>
-<button class="tablink1" onclick="openCity('Gadget', this, '#77b300')">Gadget</button>
-<button class="tablink1" onclick="openCity('Wire', this, 'green')">Wire and Cable</button>
+<button class="tablink" onclick="openCity('Mobile', this, '#660000')" id="defaultOpen">Mobile</button>
+<button class="tablink" onclick="openCity('PC', this, '#660000')">PC</button>
+<button class="tablink" onclick="openCity('Gadget', this, '#660000')">Gadget</button>
+<button class="tablink" onclick="openCity('Wire', this, '#660000')">Wire and Cable</button>
 
 <div id="Mobile" class="tabcontent">
 <img src="img/fon.jpg" height="400" width="400">

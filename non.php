@@ -53,7 +53,7 @@ body {font-family: "Lato", sans-serif;}
 }
 
 #Nappies {background-color:#e6e6e6;}
-#Cigarette {background-color:#e6e6e6;}
+#Chemical {background-color:#e6e6e6;}
 #Broken {background-color:#e6e6e6;}
 #Polystrene {background-color:#e6e6e6;}
 </style>
@@ -64,7 +64,7 @@ body {font-family: "Lato", sans-serif;}
 
 <br>
 <button class="tablink" onclick="openCity('Nappies', this, '#e6e6e6')" id="defaultOpen">Nappies</button>
-<button class="tablink" onclick="openCity('Cigarette', this, '#e6e6e6')">Cigarette</button>
+<button class="tablink" onclick="openCity('Chemical', this, '#e6e6e6')">Chemical</button>
 <button class="tablink" onclick="openCity('Broken', this, '#e6e6e6')">Broken</button>
 <button class="tablink" onclick="openCity('Polystrene', this, '#e6e6e6')">Polystrene</button>
 
@@ -74,14 +74,16 @@ body {font-family: "Lato", sans-serif;}
   <p>The diry nappies cannot be recyle</p>
 </div>
 
-<div id="Cigarette" class="tabcontent">
-  <h3>Cigarette</h3>
-  <p>Paris is the capital of France.</p> 
+<div id="Chemical" class="tabcontent">
+<img src="img/cem.jpg" height="300" width="300">
+  <h3>Chemical</h3>
+  <p>The chemical subtances must be separated from other waste</p> 
 </div>
 
 <div id="Broken" class="tabcontent">
+<img src="img/broke.jpg" height="300" width="300">
   <h3>Broken Window Glass</h3>
-  <p>The broken mirror is dangerous</p>
+  <p>The broken mirror is dangerous and crockery can't recyle but we can innovate from it </p>
 </div>
 
 <div id="Polystrene" class="tabcontent">
