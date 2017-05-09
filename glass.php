@@ -107,7 +107,7 @@ li a:hover:not(.active) {
 
 
 <br>
-<h2 class="tittle1">METAL AND TINS</h2>
+<h2 class="tittle1">GLASS</h2>
 <div>
 <ul>
 	<li><a  href="#Paper" onclick="openCity('Paper', this, '#bbff33')" id="defaultOpen">IDEA 1</a></li>
@@ -117,22 +117,22 @@ li a:hover:not(.active) {
 </ul>
 <div>
 <div id="Paper" class="tabcontent">
-	<iframe width="854" height="480" src="https://www.youtube.com/embed/Or5TKGs4D6E" frameborder="0" allowfullscreen></iframe>
-  <h3>DIY crafts:How to recycle tin cans to make a pencil holder or desk organizer</h3>
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/k4tuEXx1iFk" frameborder="0" allowfullscreen></iframe>
+  <h3>5 Things You Can Make from Glass Bottles</h3>
 </div>
 
 <div id="Plastic" class="tabcontent">
-	<iframe width="854" height="480" src="https://www.youtube.com/embed/m3__MI-Ky9Y" frameborder="0" allowfullscreen></iframe>
-  <h3>4 TIN CAN RECYCLING DIY | TIN CANS HACKS | HOMEMADE TIN CANS IDEAS</h3>
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/U5ffTUshJI8" frameborder="0" allowfullscreen></iframe>
+  <h3>TK's Recycled Glass Art Studio</h3>
 </div>
 
 <div id="Glass" class="tabcontent">
-	<iframe width="854" height="480" src="https://www.youtube.com/embed/Brbp7ZzkUOk" frameborder="0" allowfullscreen></iframe>	
-  <h3>DIY Recycled Tin Can Craft - 30 Cool Ideas!</h3>
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/795axaTJLxo" frameborder="0" allowfullscreen></iframe>	
+  <h3>DIY recycled glass bottles, home, room or office decor</h3>
 </div>
 
 <div id="Tins" class="tabcontent">
-<iframe width="854" height="480" src="https://www.youtube.com/embed/MmbgZMciNuQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/N5sp_Qt_3eo" frameborder="0" allowfullscreen></iframe>
   <h3>10 Ideas to Recycle Tin Cans</h3>
 </div>
 </div>

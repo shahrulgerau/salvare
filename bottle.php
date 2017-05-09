@@ -107,7 +107,7 @@ li a:hover:not(.active) {
 
 
 <br>
-<h2 class="tittle1">METAL AND TINS</h2>
+<h2 class="tittle1">BOTTLE</h2>
 <div>
 <ul>
 	<li><a  href="#Paper" onclick="openCity('Paper', this, '#bbff33')" id="defaultOpen">IDEA 1</a></li>
@@ -117,23 +117,23 @@ li a:hover:not(.active) {
 </ul>
 <div>
 <div id="Paper" class="tabcontent">
-	<iframe width="854" height="480" src="https://www.youtube.com/embed/Or5TKGs4D6E" frameborder="0" allowfullscreen></iframe>
-  <h3>DIY crafts:How to recycle tin cans to make a pencil holder or desk organizer</h3>
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/mMOYkNRBKPA" frameborder="0" allowfullscreen></iframe>
+  <h3>Clever plastic bottle hacks that you did not know l 5-MINUTE CRAFTS</h3>
 </div>
 
 <div id="Plastic" class="tabcontent">
-	<iframe width="854" height="480" src="https://www.youtube.com/embed/m3__MI-Ky9Y" frameborder="0" allowfullscreen></iframe>
-  <h3>4 TIN CAN RECYCLING DIY | TIN CANS HACKS | HOMEMADE TIN CANS IDEAS</h3>
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/wHJueXL_TtM" frameborder="0" allowfullscreen></iframe>
+  <h3>16 PLASTIC BOTTLE HACKS THAT WILL SAVE YOUR MONEY</h3>
 </div>
 
 <div id="Glass" class="tabcontent">
-	<iframe width="854" height="480" src="https://www.youtube.com/embed/Brbp7ZzkUOk" frameborder="0" allowfullscreen></iframe>	
-  <h3>DIY Recycled Tin Can Craft - 30 Cool Ideas!</h3>
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/T5mDHVJusiw" frameborder="0" allowfullscreen></iframe>
+  <h3>Here Are 15 Brilliant Plastic Bottle Life Hacks</h3>
 </div>
 
 <div id="Tins" class="tabcontent">
-<iframe width="854" height="480" src="https://www.youtube.com/embed/MmbgZMciNuQ" frameborder="0" allowfullscreen></iframe>
-  <h3>10 Ideas to Recycle Tin Cans</h3>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/edXimuzIVhk" frameborder="0" allowfullscreen></iframe>
+  <h3>10 DIY Creative Ways to Reuse / Recycle Plastic Bottles part 1</h3>
 </div>
 </div>
 

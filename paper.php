@@ -107,7 +107,7 @@ li a:hover:not(.active) {
 
 
 <br>
-<h2 class="tittle1">METAL AND TINS</h2>
+<h2 class="tittle1">PAPER</h2>
 <div>
 <ul>
 	<li><a  href="#Paper" onclick="openCity('Paper', this, '#bbff33')" id="defaultOpen">IDEA 1</a></li>
@@ -117,23 +117,23 @@ li a:hover:not(.active) {
 </ul>
 <div>
 <div id="Paper" class="tabcontent">
-	<iframe width="854" height="480" src="https://www.youtube.com/embed/Or5TKGs4D6E" frameborder="0" allowfullscreen></iframe>
-  <h3>DIY crafts:How to recycle tin cans to make a pencil holder or desk organizer</h3>
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/r-xTXvQBIkg" frameborder="0" allowfullscreen></iframe>
+  <h3>Paper Craft Ideas | DIY Origami Basket | HandiWorks #59</h3>
 </div>
 
 <div id="Plastic" class="tabcontent">
-	<iframe width="854" height="480" src="https://www.youtube.com/embed/m3__MI-Ky9Y" frameborder="0" allowfullscreen></iframe>
-  <h3>4 TIN CAN RECYCLING DIY | TIN CANS HACKS | HOMEMADE TIN CANS IDEAS</h3>
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/G9y-UrwgxVQ" frameborder="0" allowfullscreen></iframe>
+  <h3>33 PAPER CRAFT Ideas You Will Love l ORIGAMI COMPILATON</h3>
 </div>
 
 <div id="Glass" class="tabcontent">
-	<iframe width="854" height="480" src="https://www.youtube.com/embed/Brbp7ZzkUOk" frameborder="0" allowfullscreen></iframe>	
-  <h3>DIY Recycled Tin Can Craft - 30 Cool Ideas!</h3>
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/39S9nBf4vFg" frameborder="0" allowfullscreen></iframe>
+  <h3>16 PAPER DIYs ANYONE CAN MAKE</h3>
 </div>
 
 <div id="Tins" class="tabcontent">
-<iframe width="854" height="480" src="https://www.youtube.com/embed/MmbgZMciNuQ" frameborder="0" allowfullscreen></iframe>
-  <h3>10 Ideas to Recycle Tin Cans</h3>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/iaoMAj1GCjw" frameborder="0" allowfullscreen></iframe>
+  <h3>5 Paper Toy DIYs - 5 Minute Crafts - Things to Do When Bored</h3>
 </div>
 </div>
 

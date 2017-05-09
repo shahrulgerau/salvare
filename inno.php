@@ -123,7 +123,7 @@ if (isset($_POST['glass'])&&$_POST['glass']=="glass"){
 	echo "<br>";
 	echo "CLICK GO to watch the DIY video";
 	?>
-	<a href="non.php" class="button1">GO</a>
+	<a href="glass.php" class="button1">GO</a>
 	
 	<?php
 }
@@ -132,7 +132,7 @@ if (isset($_POST['paper'])&&$_POST['paper']=="paper"){
 	echo "<br>";
 	echo "CLICK GO to watch the DIY video";
 	?>
-	<a href="compost.php" class="button1">GO</a>
+	<a href="paper.php" class="button1">GO</a>
 	
 	<?php
 }
@@ -141,7 +141,7 @@ if (isset($_POST['bottle'])&&$_POST['bottle']=="bottle"){
 	echo "<br>";
 	echo "CLICK GO to watch the DIY video";
 	?>
-	<a href="part.php" class="button1">GO</a>
+	<a href="bottle.php" class="button1">GO</a>
 	
 <?php
 }
