@@ -4,8 +4,8 @@
 body {font-family: "Lato", sans-serif;}
 
 .tablink {
-    background-color: #555;
-    color: black;
+    background-color: #ff6666;
+    color: white;
     float: left;
     border: none;
     outline: none;
@@ -51,10 +51,10 @@ body {font-family: "Lato", sans-serif;}
     cursor: pointer;
 }
 
-#Mobile {background-color:#bbff33;}
-#PC {background-color:#99e600;}
-#Gadget {background-color:#77b300;}
-#BioPolystrene{background-color:green;}
+#Mobile {background-color:#ff6666;}
+#PC {background-color:#ff6666;}
+#Gadget {background-color:#ff6666;}
+#Wire{background-color:#ff6666;}
 </style>
 </head>
 <body>
@@ -62,32 +62,49 @@ body {font-family: "Lato", sans-serif;}
 <a href="open.php" class="button1">Back</a>
 
 <br>
-<button class="tablink" onclick="openCity('Mobile', this, '#bbff33')" id="defaultOpen">Mobile</button>
-<button class="tablink" onclick="openCity('PC', this, '#99e600')">PC</button>
-<button class="tablink1" onclick="openCity('Gadget', this, '#77b300')">Gadget</button>
-<button class="tablink1" onclick="openCity('BioPolystrene', this, 'green')">Bio-Polystrene</button>
+<button class="tablink" onclick="openCity('Mobile', this, '#660000')" id="defaultOpen">Mobile</button>
+<button class="tablink" onclick="openCity('PC', this, '#660000')">PC</button>
+<button class="tablink" onclick="openCity('Gadget', this, '#660000')">Gadget</button>
+<button class="tablink" onclick="openCity('Wire', this, '#660000')">Wire and Cable</button>
 
 <div id="Mobile" class="tabcontent">
-<img src="img/paper.jpg" height="300" width="300">
+<img src="img/fon.jpg" height="400" width="400">
   <h3>Mobile</h3>
-  <p>All kind of paper can be recycle</p>
+  <p>All the handphone part can be recyle</p>
+  <br><br>
+  <h4>MORE INFO</h4>
+  <img src="img/smart.png" height="800" width="900">
+
 </div>
 
 <div id="PC" class="tabcontent">
+<img src="img/pc.jpg" height="300" width="300">
   <h3>PC</h3>
-  <p>Paris is the capital of France.</p> 
+  <p>Laptop and also personal computer part can be recycle</p> 
 </div>
 
 <div id="Gadget" class="tabcontent">
+<img src="img/gajet.jpg" height="300" width="300">
   <h3>Gadget</h3>
-  <p>Tokyo is the capital of Japan.</p>
+  <p>example: Camera, Mouse, cooling fan, </p>
 </div>
 
-<div id="BioPolystrene" class="tabcontent">
-  <h3>Polystrene</h3>
-  <p>Oslo is the capital of Norway.</p>
+<div id="Wire" class="tabcontent">
+<img src="img/wire.jpg" height="300" width="300">
+  <h3>Wire and Cable</h3>
+  <p>Unused and non-function wire and also cable</p>
 </div>
 
+<center>
+<div id="Recycle">
+<h1>Dont Forget</h1>
+<h4>Your Bin</h4>
+<p>Place the recylable waste into the Special BLUE bin</p> 
+<p>1)Prepare any bins and label it as Special BLUE bin</p>
+<p>2)Separate the electronic based on the classification</p>
+<img src="img/blue.jpg" height="300" width="300">
+</div>
+</center>
 
 <script>
 function openCity(cityName,elmnt,color) {

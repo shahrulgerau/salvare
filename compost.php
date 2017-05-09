@@ -4,15 +4,16 @@
 body {font-family: "Lato", sans-serif;}
 
 .tablink {
-    background-color: #555;
-    color: black;
+    background-color: #e69900;
+    color: white;
     float: left;
     border: none;
-    outline: none;
+    outline: 1;
     cursor: pointer;
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
+	
 }
 .tablink1 {
     background-color: #555;
@@ -51,10 +52,11 @@ body {font-family: "Lato", sans-serif;}
     cursor: pointer;
 }
 
-#Food {background-color:#bbff33;}
-#Gardening {background-color:#99e600;}
-#Degradable {background-color:#77b300;}
-#BioPolystrene{background-color:green;}
+#Food {background-color:#e69900;}
+#Gardening {background-color:#e69900;}
+#Degradable {background-color:#e69900;}
+#Other {background-color:#e69900;}
+
 </style>
 </head>
 <body>
@@ -62,31 +64,48 @@ body {font-family: "Lato", sans-serif;}
 <a href="open.php" class="button1">Back</a>
 
 <br>
-<button class="tablink" onclick="openCity('Food', this, '#bbff33')" id="defaultOpen">Food</button>
-<button class="tablink" onclick="openCity('Gardening', this, '#99e600')">Gardening</button>
-<button class="tablink1" onclick="openCity('Degradable', this, '#77b300')">Degradable</button>
-<button class="tablink1" onclick="openCity('BioPolystrene', this, 'green')">Bio-Polystrene</button>
+<button class="tablink" onclick="openCity('Food', this, '#00cccc')" id="defaultOpen">Food</button>
+<button class="tablink" onclick="openCity('Gardening', this, '#00cccc')">Gardening</button>
+<button class="tablink" onclick="openCity('Degradable', this, '#00cccc')">Degradable</button>
+<button class="tablink" onclick="openCity('Other', this, '#00cccc')">Other</button>
+
 
 <div id="Food" class="tabcontent">
-<img src="img/paper.jpg" height="300" width="300">
+<img src="img/f1.jpg" height="300" width="300">
   <h3>Food</h3>
-  <p>All kind of paper can be recycle</p>
+  <p>Compost your kitchen waste</p>
 </div>
 
 <div id="Gardening" class="tabcontent">
+<img src="img/g1.jpg" height="300" width="300">
   <h3>Gardening</h3>
-  <p>Paris is the capital of France.</p> 
+  <p>All the gardening waste including leaves and woody thing</p> 
 </div>
 
 <div id="Degradable" class="tabcontent">
-  <h3>Degradable</h3>
-  <p>Tokyo is the capital of Japan.</p>
+<img src="img/c1.jpg" height="300" width="300">
+  <h3>Compostable Product</h3>
+  <p>Including the wood cutlery, paper cup and degradable polystrene</p>
 </div>
 
-<div id="BioPolystrene" class="tabcontent">
-  <h3>Polystrene</h3>
-  <p>Oslo is the capital of Norway.</p>
+<div id="Other" class="tabcontent">
+<img src="img/hair.jpg" height="300" width="300">
+  <h3>Others item</h3>
+  <p>Including the our hairs, pet hair, tea bag, vacuum waste</p>
 </div>
+
+
+
+<center>
+<div id="Recycle">
+<h1>Dont Forget</h1>
+<h4>Your Bin</h4>
+<p>Place the recylable waste into the BROWN bin</p> 
+<p>1)Prepare any bins and label it as BROWN bin</p>
+<p>2)Separate the recylable waste based on the recyclable item above</p>
+<img src="img/cbin.jpg" height="300" width="300">
+</div>
+</center>
 
 
 <script>

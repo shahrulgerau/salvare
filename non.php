@@ -4,15 +4,16 @@
 body {font-family: "Lato", sans-serif;}
 
 .tablink {
-    background-color: #555;
-    color: black;
+    background-color: #1a1aff;
+    color: white;
     float: left;
     border: none;
-    outline: none;
+    outline: 1;
     cursor: pointer;
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
+	
 }
 .tablink1 {
     background-color: #555;
@@ -51,10 +52,10 @@ body {font-family: "Lato", sans-serif;}
     cursor: pointer;
 }
 
-#Nappies {background-color:#bbff33;}
-#Cigarette {background-color:#99e600;}
-#Broken {background-color:#77b300;}
-#Polystrene {background-color:green;}
+#Nappies {background-color:#e6e6e6;}
+#Chemical {background-color:#e6e6e6;}
+#Broken {background-color:#e6e6e6;}
+#Polystrene {background-color:#e6e6e6;}
 </style>
 </head>
 <body>
@@ -62,31 +63,47 @@ body {font-family: "Lato", sans-serif;}
 <a href="open.php" class="button1">Back</a>
 
 <br>
-<button class="tablink" onclick="openCity('Nappies', this, '#bbff33')" id="defaultOpen">Nappies</button>
-<button class="tablink" onclick="openCity('Cigarette', this, '#99e600')">Cigarette</button>
-<button class="tablink1" onclick="openCity('Broken', this, '#77b300')">Broken</button>
-<button class="tablink1" onclick="openCity('Polystrene', this, 'green')">Polystrene</button>
+<button class="tablink" onclick="openCity('Nappies', this, '#e6e6e6')" id="defaultOpen">Nappies</button>
+<button class="tablink" onclick="openCity('Chemical', this, '#e6e6e6')">Chemical</button>
+<button class="tablink" onclick="openCity('Broken', this, '#e6e6e6')">Broken</button>
+<button class="tablink" onclick="openCity('Polystrene', this, '#e6e6e6')">Polystrene</button>
 
 <div id="Nappies" class="tabcontent">
-<img src="img/paper.jpg" height="300" width="300">
+<img src="img/nap.jpg" height="300" width="300">
   <h3>Nappies</h3>
-  <p>All kind of paper can be recycle</p>
+  <p>The diry nappies cannot be recyle</p>
 </div>
 
-<div id="Cigarette" class="tabcontent">
-  <h3>Cigarette</h3>
-  <p>Paris is the capital of France.</p> 
+<div id="Chemical" class="tabcontent">
+<img src="img/cem.jpg" height="300" width="300">
+  <h3>Chemical</h3>
+  <p>The chemical subtances must be separated from other waste</p> 
 </div>
 
 <div id="Broken" class="tabcontent">
-  <h3>Broken</h3>
-  <p>Tokyo is the capital of Japan.</p>
+<img src="img/broke.jpg" height="300" width="300">
+  <h3>Broken Window Glass</h3>
+  <p>The broken mirror is dangerous and crockery can't recyle but we can innovate from it </p>
 </div>
 
 <div id="Polystrene" class="tabcontent">
+<img src="img/poly.jpg" height="300" width="300">
   <h3>Polystrene</h3>
-  <p>Oslo is the capital of Norway.</p>
+  <p>Polystyrene foam is 95% air so it is not cost-effective to store or ship.</p>
+  <p>It is often contaminated with food or drink, and it is difficult to clean because it is so porous. </p>
 </div>
+
+<center>
+<div id="Recycle">
+<h1>Dont Forget</h1>
+<h4>Your Bin</h4>
+<p>Place the recylable waste into the BLACK bin</p> 
+<p>1)Prepare any bins and label it as BLACK bin</p>
+<p>2)Separate the recylable waste based on the recyclable item above</p>
+<img src="img/black.jpg" height="300" width="300">
+</div>
+</center>
+
 
 
 <script>
