@@ -4,7 +4,7 @@
 body {font-family: "Lato", sans-serif;}
 
 .tablink {
-    background-color: #1a1aff;
+    background-color: #e69900;
     color: white;
     float: left;
     border: none;
@@ -52,10 +52,10 @@ body {font-family: "Lato", sans-serif;}
     cursor: pointer;
 }
 
-#Food {background-color:#bbff33;}
-#Gardening {background-color:#99e600;}
-#Degradable {background-color:#77b300;}
-#Other {background-color:#77b300;}
+#Food {background-color:#e69900;}
+#Gardening {background-color:#e69900;}
+#Degradable {background-color:#e69900;}
+#Other {background-color:#e69900;}
 
 </style>
 </head>
@@ -64,10 +64,10 @@ body {font-family: "Lato", sans-serif;}
 <a href="open.php" class="button1">Back</a>
 
 <br>
-<button class="tablink" onclick="openCity('Food', this, '#bbff33')" id="defaultOpen">Food</button>
-<button class="tablink" onclick="openCity('Gardening', this, '#99e600')">Gardening</button>
-<button class="tablink" onclick="openCity('Degradable', this, '#77b300')">Degradable</button>
-<button class="tablink" onclick="openCity('Other', this, '#77b300')">Other</button>
+<button class="tablink" onclick="openCity('Food', this, '#00cccc')" id="defaultOpen">Food</button>
+<button class="tablink" onclick="openCity('Gardening', this, '#00cccc')">Gardening</button>
+<button class="tablink" onclick="openCity('Degradable', this, '#00cccc')">Degradable</button>
+<button class="tablink" onclick="openCity('Other', this, '#00cccc')">Other</button>
 
 
 <div id="Food" class="tabcontent">

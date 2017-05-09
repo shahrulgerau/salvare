@@ -4,7 +4,7 @@
 body {font-family: "Lato", sans-serif;}
 
 .tablink {
-    background-color: #555;
+    background-color:#bbff33;
     color: black;
     float: left;
     border: none;
@@ -52,9 +52,9 @@ body {font-family: "Lato", sans-serif;}
 }
 
 #Paper {background-color:#bbff33;}
-#Plastic {background-color:#99e600;}
-#Glass {background-color:#77b300;}
-#Tins {background-color:green;}
+#Plastic {background-color:#bbff33;}
+#Glass {background-color:#bbff33;}
+#Tins {background-color:#bbff33;}
 #Recycle {background-color:#f2f2f2;}
 </style>
 </head>
@@ -63,10 +63,10 @@ body {font-family: "Lato", sans-serif;}
 <a href="open.php" class="button1">Back</a>
 
 <br>
-<button class="tablink" onclick="openCity('Paper', this, '#bbff33')" id="defaultOpen">Paper</button>
-<button class="tablink" onclick="openCity('Plastic', this, '#99e600')">Plastic</button>
-<button class="tablink1" onclick="openCity('Glass', this, '#77b300')">Glass</button>
-<button class="tablink1" onclick="openCity('Tins', this, 'green')">Tins</button>
+<button class="tablink" onclick="openCity('Paper', this, 'green')" id="defaultOpen">Paper</button>
+<button class="tablink" onclick="openCity('Plastic', this, 'green')">Plastic</button>
+<button class="tablink" onclick="openCity('Glass', this, 'green')">Glass</button>
+<button class="tablink" onclick="openCity('Tins', this, 'green')">Tins</button>
 
 
 
