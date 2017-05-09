@@ -39,6 +39,7 @@ body {font-family: "Lato", sans-serif;}
 }
 
 .button1 {
+	position:relative;
     background-color: #46C9CF;
     border: none;
     color: white;
@@ -55,17 +56,50 @@ body {font-family: "Lato", sans-serif;}
 #Plastic {background-color:#99e600;}
 #Glass {background-color:#77b300;}
 #Tins {background-color:green;}
+
+ul {
+	height=300;
+	position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300;
+    background-color: #f1f1f1;
+}
+
+li a {
+	height=300;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
 </style>
 </head>
 <body>
 
 <a href="inno.php" class="button1">Back</a>
+<Center><h2>METAL</h2></center>
 
 <br>
-<button class="tablink" onclick="openCity('Paper', this, '#bbff33')" id="defaultOpen">Paper</button>
-<button class="tablink" onclick="openCity('Plastic', this, '#99e600')">Plastic</button>
-<button class="tablink1" onclick="openCity('Glass', this, '#77b300')">Glass</button>
-<button class="tablink1" onclick="openCity('Tins', this, 'green')">Tins</button>
+<div>
+<ul>
+	<li><a  href="#Paper" onclick="openCity('Paper', this, '#bbff33')" id="defaultOpen">Paper</a></li>
+	<li><a  href="#Plastic" onclick="openCity('Plastic', this, '#99e600')">Plastic</a></li>
+	<li><a  href="#Glass" onclick="openCity('Glass', this, '#77b300')">Glass</a></li>
+	<li><a  href="#Tins" onclick="openCity('Tins', this, 'green')">Tins</a></li>
+</ul>
+</div>
 
 <div id="Paper" class="tabcontent">
 <img src="img/paper.jpg" height="300" width="300">
