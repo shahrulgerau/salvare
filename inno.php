@@ -69,7 +69,7 @@ body {font-family: "Lato", sans-serif;}
 
 
 
-<Center><h2>Waste Classification</h2></center>
+<Center><h2>Waste Innovation Type</h2></center>
 
 <center>
 <table>
