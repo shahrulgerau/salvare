@@ -70,7 +70,7 @@ table1 {
 <table><center>
 
 <tr>
-<td><center><img src="img/like.jpg" width="75" height="75">
+<td><center><img src="img/like.jpg" width="120" height="120">
 <p><font size="4" color="#290972">Shahrul Nizam Bin Ismail </p>
          <p> Faculty of Science Computer and Information Technology, <br>University Malaya</p>
           <p>Bachelor of Information Technology (Management)</p>
@@ -81,14 +81,14 @@ table1 {
 </td>
 
 
-<td><center><img src="img/wae.jpg" width="75" height="75">
+<td><center><img src="img/wae.jpg" width="120" height="120">
 <p><font size="4" color="#290972"> Muhammad Ridhuan Bin  Mohd Salleh</p>
            <p> Faculty of Science Computer and Information Technology, <br>University Malaya</p>
           <p>Bachelor of Information Technology (Management)</p>
 </font>
 
 <a href="https://www.facebook.com/ridhuan.salleh" target="blank"><img src="img/fb.png" width="75" height="75"></a>
-<a href="https://www.instagram.com/ridhuansalleh /" target="blank"><img src="img/insta.png" width="65" height="65"></a>
+<a href="https://www.instagram.com/ridhuansalleh/" target="blank"><img src="img/insta.png" width="65" height="65"></a>
 
 </td>
 </tr>
