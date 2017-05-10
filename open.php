@@ -14,7 +14,6 @@ body {font-family: "Lato", sans-serif;}
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
-	border: 3px solid #73AD21;
 }
 
 .tablink:hover {

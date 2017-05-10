@@ -14,7 +14,6 @@ body {font-family: "Lato", sans-serif;}
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
-	border: 3px solid #73AD21;
 }
 
 .tablink:hover {
@@ -91,11 +90,15 @@ Metal
 <input type="image" class="bord" src="img/Tin-Market.jpg" name="metal" value="metal" alt="Submit" width="150" height="150">
 </td >
 <td class="center">
+Compost
+<br>
+<input type="image" class="bord" src="img/composts.jpg" name="composts" value="composts" alt="Submit" width="150" height="150">
+</td >
+<td class="center">
 Glass
 <br>
 <input type="image" class="bord" src="img/glass.jpg" name="glass" value="glass" alt="Submit" width="150" height="150">
 </td>
-<tr>
 <td class="center">
 Paper
 <br>
@@ -126,6 +129,18 @@ if (isset($_POST['metal'])&&$_POST['metal']=="metal"){
 	echo "CLICK GO to watch the DIY video";
 	?>
 	<a href="metal.php" class="button1">GO</a>
+	<?php
+}
+if (isset($_POST['composts'])&&$_POST['composts']=="composts"){
+
+
+
+
+	echo "COMPOST";
+	echo "<br>";
+	echo "CLICK GO to watch the DIY video";
+	?>
+	<a href="composts.php" class="button1">GO</a>
 	<?php
 }
 if (isset($_POST['glass'])&&$_POST['glass']=="glass"){
