@@ -37,7 +37,7 @@ body {font-family: "Lato", sans-serif;}
 .box {padding: 7px;border: #F0F0F0 1px solid;border-radius: 4px;}
 
 .button1 {
-    background-color: #46C9CF;
+    background-color:#663300;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -47,11 +47,6 @@ body {font-family: "Lato", sans-serif;}
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-}
-table1 {
-    border-collapse: collapse;
-    width: 100%;
-	background-color: #f2f2f2
 }
 </style>
 </head>
@@ -63,11 +58,10 @@ table1 {
 <a href="open.php"><button class="tablink" onclick="openCity('Tutorial', this, 'red')" id="defaultOpen">Tutorial</button></a>
 <a href="inno.php"><button class="tablink" onclick="openCity('Innovation', this, 'green')">Innovation</button></a>
 <a href="find.php"><button class="tablink" onclick="openCity('Find', this, 'blue')">Find</button></a>
-<a href="oa4.php"><button class="tablink" onclick="openCity('Contact', this, 'orange')">Contact</button></a>
-
+<a href="contact.php"><button class="tablink" onclick="openCity('Contact', this, 'orange')">Contact</button></a>
 
 <center>
-
+<br>
 <div id="back">
 <br><br>
 <br><br>
